@@ -19,9 +19,11 @@
 }
 
 /* Ensure containers don't restrict image size */
-.image-container img {
-    width: 100%; /* Ensures images fit within mobile screens */
-    height: auto;
+img {
+    width: 100%;
+    height:auto;
+    display:block;
+    margin:0 auto;
 }
 /* Logo */
 .logo-container {
