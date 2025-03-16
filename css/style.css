@@ -1,4 +1,3 @@
-/* Skip Link for Accessibility */
 .skip-link {
     position: absolute;
     top: -40px;
@@ -18,14 +17,27 @@
     outline: 2px solid #ffcc00;
 }
 
-/* Ensure containers don't restrict image size */
 img {
     width: 100%;
     height:auto;
     display:block;
-    margin:0 auto;
+    margin:10px auto;
 }
-/* Logo */
+
+.image-container, figure {
+    width: 100%;     
+    max-width: 100%;  
+    overflow: hidden;  
+    text-align: center; 
+}
+
+figure img {
+    width: 100%;  
+    max-width: 100%;
+    height: auto;
+}
+
+
 .logo-container {
     text-align: center;
     margin: 20px 0;
@@ -38,7 +50,7 @@ img {
     margin: 0 auto;
 }
 
-/* Navigation */
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -76,7 +88,7 @@ nav ul li a.active {
     text-decoration: underline;
 }
 
-/* Fat Footer */
+
 .fat-footer {
     background-color: #00274C;
     color: white;
@@ -85,13 +97,12 @@ nav ul li a.active {
     border-top: solid #ffcc00;
 }
 
-/* Footer Grid Layout - Mobile Only */
 .footer-container {
     display: grid;
-    grid-template-columns: 1fr; /* Stacks all sections in a single column */
+    grid-template-columns: 1fr; 
     gap: 5px;
     padding-bottom: 20px;
-    text-align: center; /* Ensures all content is centered */
+    text-align: center; 
 }
 
 
@@ -156,28 +167,28 @@ nav ul li a.active {
 
 .video-grid {
     display: grid;
-    place-items: center; /* Centers the video preview */
+    place-items: center; 
     padding: 20px;
     text-align: center;
 }
 
 .youtube-container {
-    text-align: center; /* Centers text below the image */
+    text-align: center; 
     display: block;
 }
 
 .youtube-text {
     font-size: 16px;
     font-weight: bold;
-    color: #0057b7; /* U-M Blue */
+    color: #0057b7; 
     text-align: center;
     margin-top: 5px;
 }
 
-/* Make the YouTube preview image fit mobile screens */
+
 .youtube-preview {
-    width: 100%;  /* Ensures full width on mobile */
-    height: auto; /* Maintains aspect ratio */
+    width: 100%;  
+    height: auto; 
     display: block;
     margin: 10px auto;
     border-radius: 5px;
