@@ -18,6 +18,11 @@
     outline: 2px solid #ffcc00;
 }
 
+/* Ensure containers don't restrict image size */
+.image-container img {
+    width: 100%; /* Ensures images fit within mobile screens */
+    height: auto;
+}
 /* Logo */
 .logo-container {
     text-align: center;
