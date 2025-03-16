@@ -4,26 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maize and Blue Cupboard</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
     <header>
-            <a href = "">Skip to Main Content</a>
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" 
+                     alt="UMSI Logo" class="um-logo">
+            </a>
+        </div>
         <nav>
             <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "MaizeandBlue.html">Maize and Blue Food Bank</a></li>
-                <li><a href = "Firstgen.html">First Generation College Students</a></li>
-                <li><a href = "CEW+.html">CEW+</a></li>
+                <li><a href="index.html" class="nav-link" id="home">Home</a></li>
+                <li><a href="MaizeandBlue.html" class="nav-link active" id="maize">Maize and Blue Food Bank</a></li>
+                <li><a href="Firstgen.html" class="nav-link" id="firstgen">First Generation College Students</a></li>
+                <li><a href="CEW+.html" class="nav-link" id="cew">CEW+</a></li>
             </ul>
         </nav>
+        
         <h1>Welcome to the Maize and Blue Cupboard</h1>
         <figure>
             <img src = "images/FoodBank.png" width = "450" alt = "Foodbank frozen protein">
         </figure>
 
     </header>
-    <main>
+    <main id="main-content">
         <div>
             <h2>Supporting UMSI Students with Essential Resources</h2>
                 <img src = "images/Resources.jpg" width = "450" alt = "Foodbank resources">
@@ -63,8 +70,44 @@
                        Monday - Thursday: 3pm-7pm
                        Friday: 12pm-7pm
                        Saturday: closed
-    </footer>
-    
+  
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>We are committed to providing resources and support for students at the University of Michigan.</p>
+                </div>
+        
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="MaizeandBlue.html">Maize and Blue Food Bank</a></li>
+                        <li><a href="Firstgen.html">First Generation College Students</a></li>
+                        <li><a href="CEW+.html">CEW+</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Email: <a href="mailto: umsi.studentlife@umich.edu">umsi.studentlife@umich.edu</a></p>
+                    <p>Phone: <a href="tel:+17346478045">(734) 647-8045</a></p>
+                    <p>Location: School of Information University of Michigan, Ann Arbor, MI 48109-1285</p>
+                </div>
+        
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <ul class="social-links">
+                        <li><a href="https://www.facebook.com/uomsi/" target="_blank">Facebook</a></li>
+                        <li><a href="https://x.com/umsi?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">X (Twitter)</a></li>
+                        <li><a href="https://www.instagram.com/umschoolofinformation/?hl=en" target="_blank">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        
+            <div class="footer-bottom">
+                <p>&copy; 2025 University of Michigan | All Rights Reserved</p>
+            </div>
+        </footer>
 </body>
 
 </html>
